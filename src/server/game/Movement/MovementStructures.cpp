@@ -103,7 +103,7 @@ MovementStatusElements const PlayerMove[] =
     MSEEnd,
 };
 
-∩MovementStatusElements const MovementFallLand[] = // 5.4.0 17399
+MovementStatusElements const MovementFallLand[] = // 5.4.0 17399
 {
 	MSEPositionZ,              // 44
 	MSEPositionY,              // 40
@@ -119,7 +119,7 @@ MovementStatusElements const PlayerMove[] =
 	MSEHasGuidByte1,           // 17
 	MSEHasGuidByte2,           // 18
 	MSEHasMovementFlags,       // 24
-    MSEZeroBit,                // 149
+	MSEZeroBit,                // 149
 	MSEHasTransportData,       // 104
 	MSEHasGuidByte5,           // 21
 	MSEHasOrientation,         // 48
@@ -131,7 +131,7 @@ MovementStatusElements const PlayerMove[] =
 	MSEHasTransportGuidByte6,  // 62
 	MSEHasTransportGuidByte2,  // 58
 	MSEHasTransportGuidByte5,  // 61
-    MSEHasTransportTime2,      // 92
+        MSEHasTransportTime2,      // 92
 	MSEHasTransportGuidByte1,  // 57
 	MSEHasTransportGuidByte4,  // 60
 	MSEHasTransportGuidByte0,  // 56
@@ -139,12 +139,12 @@ MovementStatusElements const PlayerMove[] =
 	MSEHasTransportGuidByte3,  // 59
 	MSEHasTransportTime3,      // 100
 	MSEMovementFlags,          // 24
-    MSEMovementFlags2,         // 28
+        MSEMovementFlags2,         // 28
 	MSEHasFallDirection,       // 136
 	MSEGuidByte7,              // 23
 	MSEGuidByte1,              // 17
 	MSEGuidByte0,              // 16
-    MSEGuidByte3,              // 19
+        MSEGuidByte3,              // 19
 	MSECounter,                // 156
 	MSEGuidByte4,              // 20
 	MSEGuidByte6,              // 22
@@ -153,7 +153,7 @@ MovementStatusElements const PlayerMove[] =
 	MSEFallTime,               // 116
 	MSEFallSinAngle,           // 128
 	MSEFallHorizontalSpeed,    // 132
-    MSEFallCosAngle,           // 124
+        MSEFallCosAngle,           // 124
 	MSEFallVerticalSpeed,      // 120
 	MSETransportPositionZ,     // 72
 	MSETransportGuidByte7,     // 63
