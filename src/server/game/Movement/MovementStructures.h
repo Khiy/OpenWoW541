@@ -35,6 +35,7 @@ enum MovementStatusElements
     MSEHasGuidByte5,
     MSEHasGuidByte6,
     MSEHasGuidByte7,
+    MSECounterCount,
     MSEHasMovementFlags,
     MSEHasMovementFlags2,
     MSEHasTimestamp,
